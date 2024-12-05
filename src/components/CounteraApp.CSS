@@ -1,0 +1,49 @@
+.disp {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divbox{
+    background-color: White;
+    padding: 5rem;
+    box-shadow: 5px 5px 5px rgba(92, 92, 92, 0.5);
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Specific button colors */
+.btn:nth-child(2) { /* Increment button */
+    background-color: #28a745; /* Green */
+}
+
+.btn:nth-child(3) { /* Reset button */
+    background-color: #dc3545; /* Red */
+}
+
+.btn:nth-child(4) { /* Decrement button */
+    background-color: #007bff; /* Blue */
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn:active {
+    background-color: #ccc;
+}
